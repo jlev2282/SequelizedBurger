@@ -1,0 +1,26 @@
+{
+  "name": "sequelizedburger",
+  "version": "1.0.0",
+  "description": "Sequelized version of Eat Da Burger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlev2282/SequelizedBurger.git"
+  },
+  "keywords": [
+    "Sequelized"
+  ],
+  "author": "John Leverett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlev2282/SequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/jlev2282/SequelizedBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
