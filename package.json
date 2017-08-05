@@ -21,6 +21,10 @@
   "homepage": "https://github.com/jlev2282/SequelizedBurger#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql2": "^1.4.0",
+    "sequelize": "^4.4.2"
   }
 }

@@ -23,7 +23,7 @@ router.get("/burgers", function(req, res) {
 });
 
 // post route to create burgers
-router.param("/burgers/create", function(req, res) {
+router.post("/burgers/create", function(req, res) {
     db.Burger.create({
         burger_name: req.body.burger_name
     })

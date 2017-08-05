@@ -33,6 +33,7 @@ app.use("/create", routes);
 var port = process.env.PORT || 2207;
 db.sequelize.sync().then(function() {
   app.listen(port);
+  console.log("Congrats Coder! Listening on port "+ port);
 });
 
 
